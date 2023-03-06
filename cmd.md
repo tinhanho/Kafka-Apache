@@ -1,6 +1,6 @@
 # For windows
 
-\large 在Zookeeper資料夾下執行<br>
+在Zookeeper資料夾下執行<br>
 zkServer<br>
 <br>
 在Kafka的資料夾下執行<br>
