@@ -14,6 +14,10 @@ kafka-topics.bat --list --bootstrap-server localhost:9092<br>
 建立Producer<br>
 kafka-console-producer.bat --broker-list localhost:9092 -topic testtopic <br>
 建立Consumer~~<br>
-
-
-.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+Note: clear logs file before creating nodes<br>
+## Preparation
+zookeeper.properties 加入 audit.enable=true<br>
+<br>
+Start<br>
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties<br>
+.\bin\windows\kafka-server-start.bat .\config\server.properties<br>
