@@ -14,6 +14,7 @@ kafka-topics.bat --list --bootstrap-server localhost:9092<br>
 建立Producer<br>
 kafka-console-producer.bat --broker-list localhost:9092 -topic testtopic <br>
 建立Consumer~~<br>
+新版本Kafka好像不需要額外下載Zookeeper<br>
 Note: clear logs file before creating nodes<br>
 ## Preparation
 zookeeper.properties 加入 audit.enable=true<br>
