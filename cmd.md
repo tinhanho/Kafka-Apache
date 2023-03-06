@@ -1,4 +1,4 @@
-// for ms-dos
+# for ms-dos
 
 在Zookeeper資料夾下執行
 zkServer
