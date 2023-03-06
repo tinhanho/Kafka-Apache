@@ -11,3 +11,6 @@ kafka-topics.bat --create --topic testtopic --bootstrap-server localhost:9092 --
 <br>
 Show all topic<br>
 kafka-topics.bat --list --bootstrap-server localhost:9092<br>
+建立Producer<br>
+kafka-console-producer.bat --broker-list localhost:9092 -topic testtopic <br>
+建立Consumer<br>
