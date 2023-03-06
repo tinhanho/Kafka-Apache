@@ -1,6 +1,6 @@
 # For windows
 
-在Zookeeper資料夾下執行<br>
+~~在Zookeeper資料夾下執行<br>
 zkServer<br>
 <br>
 在Kafka的資料夾下執行<br>
@@ -13,4 +13,7 @@ Show all topic<br>
 kafka-topics.bat --list --bootstrap-server localhost:9092<br>
 建立Producer<br>
 kafka-console-producer.bat --broker-list localhost:9092 -topic testtopic <br>
-建立Consumer<br>
+建立Consumer~~<br>
+
+
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
