@@ -18,6 +18,6 @@ Note: clear logs file before creating nodes<br>
 ## Preparation
 zookeeper.properties 加入 audit.enable=true<br>
 <br>
-Start<br>
+### Start<br>
 .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties<br>
 .\bin\windows\kafka-server-start.bat .\config\server.properties<br>
