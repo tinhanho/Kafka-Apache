@@ -25,3 +25,9 @@ zookeeper.properties 加入 audit.enable=true<br>
 ## Start<br>
 .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties<br>
 .\bin\windows\kafka-server-start.bat .\config\server.properties<br>
+
+### 建立Topic
+kafka-topics.bat --create --topic test --bootstrap-server localhost:9092<br>
+建立名為test的topic<br>
+### 建立Producer
+kafka-console-producer.bat --topic test --bootstrap-server localhost:9092<br>
