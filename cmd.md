@@ -1,4 +1,7 @@
 # For windows
+reference:<br>
+1.https://kafka.apache.org/documentation/#quickstart<br>
+~~2.https://www.cnblogs.com/chenwolong/p/kafka.html~~<br>
 
 ~~在Zookeeper資料夾下執行<br>
 zkServer<br>
