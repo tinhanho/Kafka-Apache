@@ -35,3 +35,6 @@ kafka-console-producer.bat --topic test --bootstrap-server localhost:9092<br>
 ### 建立Consumer
 kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test --from-beginning --partition 0<br>
 *kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test --from-beginning*  Not work without partition 0, do not know why
+
+![img](https://github.com/tinhanho/Kafka-Apache/blob/main/Prod_Cons.png)
+▲Producer(left) Consumer(right)
