@@ -2,7 +2,8 @@
 reference:<br>
 1.https://kafka.apache.org/documentation/#quickstart<br>
 ~~2.https://www.cnblogs.com/chenwolong/p/kafka.html~~<br>
-
+3.https://ithelp.ithome.com.tw/articles/10267789<br>
+4.https://stackoverflow.com/questions/34844209/consumer-not-receiving-messages-kafka-console-new-consumer-api-kafka-0-9<br>
 ~~在Zookeeper資料夾下執行<br>
 zkServer<br>
 <br>
@@ -31,3 +32,6 @@ kafka-topics.bat --create --topic test --bootstrap-server localhost:9092<br>
 建立名為test的topic<br>
 ### 建立Producer
 kafka-console-producer.bat --topic test --bootstrap-server localhost:9092<br>
+### 建立Consumer
+kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test --from-beginning --partition 0<br>
+**kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test --from-beginning**  Not work without partition 0, do not know why
