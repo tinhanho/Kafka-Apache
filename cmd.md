@@ -31,10 +31,10 @@ zookeeper.properties 加入 audit.enable=true<br>
 ### 建立Topic
 kafka-topics.bat --create --topic test --bootstrap-server localhost:9092<br>
 建立名為test的topic<br>
-
+### 刪除Topic
+kafka-topics.bat --bootstrap-server localhost:9092 --delete --topic test<br>
 ### List All Topic
 kafka-topics.bat --bootstrap-server localhost:9092 --list<br>
-
 ### 建立Producer
 kafka-console-producer.bat --topic test --bootstrap-server localhost:9092<br>
 ### 建立Consumer
