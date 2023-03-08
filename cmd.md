@@ -4,6 +4,7 @@ reference:<br>
 ~~2.https://www.cnblogs.com/chenwolong/p/kafka.html~~<br>
 3.https://ithelp.ithome.com.tw/articles/10267789<br>
 4.https://stackoverflow.com/questions/34844209/consumer-not-receiving-messages-kafka-console-new-consumer-api-kafka-0-9<br>
+5.https://www.conduktor.io/kafka/kafka-topics-cli-tutorial/#Example-17<br>
 ~~在Zookeeper資料夾下執行<br>
 zkServer<br>
 <br>
