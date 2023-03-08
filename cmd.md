@@ -23,7 +23,8 @@ Note: clear logs file before creating nodes<br>
 ## Preparation
 zookeeper.properties 加入 audit.enable=true<br>
 <br>
-## Start<br>
+## Quick Start<br>
+### In this quickstart we'll see how to run Kafka Connect with simple connectors that import data from a file to a Kafka topic and export data from a Kafka topic to a file.
 .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties<br>
 .\bin\windows\kafka-server-start.bat .\config\server.properties<br>
 
