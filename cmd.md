@@ -46,7 +46,7 @@ kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test --from
 ![img](https://github.com/tinhanho/Kafka-Apache/blob/main/Prod_Cons.png)
 ▲Producer(left) Consumer(right)
 
-### Consumber groups
+### Consumer groups
 How to create consumers in a Kafka Consumer Group?<br>
 To start consumers in a consumer group, do the following:<br>
 1. Create a topic with **at least 2 partitions** and send data to it<br>
